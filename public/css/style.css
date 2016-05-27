@@ -1,0 +1,113 @@
+body{
+  background-image: url("/bg.jpg");
+  background-position: center;
+  font-family: Georgia, Times, serif;
+  margin: 0px;
+  background-color: #828282;
+}
+.wrapper {
+  width: 940px;
+  margin: 20px auto 20px auto;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+  header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+  }
+header {
+    height: 80px;
+  }
+  h1 {
+    margin: 5px;
+  }
+  nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+  }
+  nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+  }
+  nav li {
+    display: inline;
+    margin-right: 40px;
+  }
+  nav li a {
+    color: #ffffff;
+  }
+  nav li a:hover, nav li a.current {
+    color: #000000;
+  }
+  section.content {
+      float: left;
+      width: 659px;
+      border-right: 1px solid #eeeeee;
+    }
+  article {
+      clear: both;
+      overflow: auto;
+      width: 100%;
+    }
+  hgroup {
+      margin-top: 40px;
+    }
+  time{
+    float: left;
+    color: #458eff;
+  }
+  figure {
+      float: left;
+      width: 290px;
+      height: 220px;
+      padding: 5px;
+      margin: 20px;
+      border: 1px solid #eeeeee;
+    }
+  figcaption {
+      font-size: 90%;
+      text-align: left;
+      color: #828282;
+    }
+  img{
+      width: 290px;
+      height: 220px;}
+  aside {
+      width: 230px;
+      float: left;
+      padding: 0px 0px 0px 20px;
+    }
+  aside section a {
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid #eeeeee;
+    }
+  aside section a:hover {
+      color: #fb3958;
+      background-color: #efefef;
+    }
+  a {
+      color: #de6581;
+      text-decoration: none;
+    }
+  p {
+    color: #fb3958;
+  }
+  p#p1{
+    color: #9b6954;
+  }
+  h1, h2, h3 {
+      font-weight: normal;}
+  h2 {
+      margin: 10px 0px 5px 0px;
+      padding: 0px;}
+  h3 {
+        margin: 0px 0px 10px 0px;
+        color: #84bd00;}
+  aside h2 {
+      padding: 30px 0px 10px 0px;
+      color: #84bd00;}
+  footer {
+      font-size: 80%;
+      padding: 7px 0px 0px 20px;}
